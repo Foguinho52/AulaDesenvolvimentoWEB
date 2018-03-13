@@ -1,0 +1,49 @@
+/*bloco de regras*/
+/* <seletor css> { */
+    /*chave: valor;*/
+    /*na ultima regra o ; é opcional*/
+/*}*/
+
+/*Seletor de elemento*/
+p {
+    color: brown;
+    text-align:center;
+}
+
+/*Selector de ID*/
+#meuParagrafo {
+    color: lime;
+}
+/*Selector de classe*/
+.destaque {
+    color: darkorange;
+}
+img {
+    width: 50%;
+    height: 50%;
+}
+/*= significa */
+/*procura exatamente o que esta entre aspas*/
+ [type="button"] {
+     color: blue;
+ }
+/*^ significa */
+/*procura exatamente o que esta entre aspas*/
+ [class^="btn"] {
+     border: 1px solid greenyellow;
+ }
+/*$ significa */
+/*procura exatamente o que esta entre aspas*/
+ [class$="primary"] {
+     border: 1px solid darkred;
+ }
+ /** significa */
+/*procura exatamente o que esta entre aspas*/
+[class*="primary"] {
+    border: 1px solid darkred;
+}
+
+li{
+    list-style-image:url(https://www.google.com.br/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiJrLXSj-jZAhVKi5AKHRUyA-kQjRwIBg&url=https%3A%2F%2Folhardigital.com.br%2Fnoticia%2Fgoogle-muda-seu-logotipo-e-adota-fonte-diferente%2F50956&psig=AOvVaw2IQICLGmcFmwhRcsyjdEqK&ust=1520990055996742)
+
+}
